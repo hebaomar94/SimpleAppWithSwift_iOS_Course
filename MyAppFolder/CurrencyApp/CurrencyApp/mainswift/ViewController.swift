@@ -34,23 +34,24 @@ class ViewController: UIViewController {
 //        }
         
         //inhancement code with Guard
-        guard let amount = enter.text,
+         guard let amount = enter.text,
               !amount.isEmpty else {
-            USD_CURRENCY.text = "Enter EGP amount"
+            USD_CURRENCY.text = "Enter USD amount"
             USD_CURRENCY.textColor = .systemOrange
 
             return
         }
         guard let usd = Double (amount) else {
-            USD_CURRENCY.text = "Enter correct EGP"
+            USD_CURRENCY.text = "Enter correct USD"
             USD_CURRENCY.textColor = .systemRed
             return
         }
         let usdConvert = usd * 30.8
-        USD_CURRENCY.text = ("\(usdConvert ) USD")
+        USD_CURRENCY.text = ("\(usdConvert ) egp")
         USD_CURRENCY.textColor = .systemGreen
 
     }
     
 }
+
 
