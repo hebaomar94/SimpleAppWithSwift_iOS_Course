@@ -1,6 +1,5 @@
 #This is an app to convert currency from EGP (Egyptian Pounds) to USD (US Dollars) based on Swift language
 
-<img width="1102" alt="Screenshot 2023-10-19 at 5 32 22 AM" src="https://github.com/hebaomar94/currencyAppConvert/assets/97067717/297539f4-782d-4731-b1ba-cea5589e0c2e">
 
 
 
